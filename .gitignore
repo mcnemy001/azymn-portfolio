@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # Unused components
+/components/ui/BentoGrid.tsx
 /components/ui/CanvasRevealEffect.tsx
 /components/ui/GlareCard.tsx
 /components/ui/Globe.tsx

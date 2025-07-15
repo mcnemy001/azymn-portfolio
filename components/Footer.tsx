@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MagicButton } from './ui/MagicButton';
-import { FaLocationArrow, FaArrowUp } from 'react-icons/fa';
+import { FaLocationArrow, FaArrowUp, FaDownload } from 'react-icons/fa';
 import { socialMedia } from '@/data';
 import { LanyardComponent } from './ui/Lanyard';
 
@@ -38,13 +38,23 @@ export const Footer = () => {
               </p>
             </div>
 
-            <a href="mailto:aziyusman@gmail.com" className="inline-block">
-              <MagicButton
-                title="Say Hello"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </a>
+            {/* PERUBAHAN 2: Menambahkan tombol Download CV */}
+            <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
+              <a href="mailto:aziyusman@gmail.com">
+                <MagicButton
+                  title="Say Hello"
+                  icon={<FaLocationArrow />}
+                  position="right"
+                />
+              </a>
+              <a href="/Aziyusman-CV.pdf" download>
+                <MagicButton
+                  title="Download CV"
+                  icon={<FaDownload />}
+                  position="right"
+                />
+              </a>
+            </div>
 
             {/* Quick Contact Info */}
             <div className="space-y-2 pt-4">

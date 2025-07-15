@@ -21,6 +21,7 @@ export const Footer = () => {
       </div>
       
       <div className="max-w-7xl mx-auto">
+        
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* CTA Section */}

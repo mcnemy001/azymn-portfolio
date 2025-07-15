@@ -38,7 +38,6 @@ export const Footer = () => {
               </p>
             </div>
 
-            {/* PERUBAHAN 2: Menambahkan tombol Download CV */}
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
               <a href="mailto:aziyusman@gmail.com">
                 <MagicButton

@@ -37,7 +37,7 @@ export function TimelineDemo() {
   ];
 
   return (
-    <div className="relative w-full overflow-clip">
+    <div className="relative w-full overflow-clip" id='timeline'>
       <div className="mt-20 mb-20">
         <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
       </div>

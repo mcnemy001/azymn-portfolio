@@ -49,7 +49,7 @@ export const Footer = () => {
               </a>
               <a href="/Aziyusman-CV.pdf" download>
                 <MagicButton
-                  title="Download CV"
+                  title="Resume"
                   icon={<FaDownload />}
                   position="right"
                 />

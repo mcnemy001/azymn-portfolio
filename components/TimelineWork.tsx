@@ -8,7 +8,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            <strong>Freelance Web Developer</strong> at CV LEAD English Online –
+            <strong>Freelance Web Developer</strong> at LEAD English Online –
             Bandung. Designed and developed landing pages and online course
             sales pages using WordPress, WooCommerce, and Xendit. Focused on
             responsive layouts and seamless user experience for language
@@ -22,7 +22,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            <strong>Web Developer (Fulltime)</strong> at CV LEAD English Online
+            <strong>Web Developer (Fulltime)</strong> at LEAD English Online
             – Bandung. Customized UI and functionality using HTML, CSS,
             JavaScript, and plugin integrations. Managed hosting, performance
             optimization, and tech troubleshooting.

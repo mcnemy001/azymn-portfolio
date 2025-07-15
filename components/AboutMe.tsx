@@ -96,21 +96,21 @@ export const AboutMe = () => {
           >
             <div className="space-y-4">
               <h2 className="text-2xl md:text-3xl font-bold text-white flex items-center gap-2">
-                Hi, I'm
+                Hi, I&apos;m
                 <span className="animate-pulse">Aziyusman!</span>
               </h2>
 
               <div className="space-y-4">
                 <p className="text-white/80 leading-relaxed transform transition-all duration-300 hover:text-white/90">
                   A passionate frontend developer who enjoys making cool things
-                  on the web. Whether it's a slick UI or a fast-loading app, I'm
+                  on the web. Whether it&apos;s a slick UI or a fast-loading app, I&apos;m
                   all about building with purpose and precision.
                 </p>
 
                 <p className="text-white/80 leading-relaxed transform transition-all duration-300 hover:text-white/90">
                   Outside frontend development, I also love exploring other tech
                   stacks — from building web apps with PHP & Laravel, to
-                  developing mobile apps using Kotlin. I'm also deeply
+                  developing mobile apps using Kotlin. I&apos;m also deeply
                   interested in UI/UX design and often spend time creating
                   visual concepts and graphic designs.
                 </p>
@@ -118,7 +118,7 @@ export const AboutMe = () => {
                 <p className="text-white/80 leading-relaxed transform transition-all duration-300 hover:text-white/90">
                   I am always eager to learn new tools, improve my workflow, and
                   stay updated with the latest trends in tech and design.
-                  Whether it's debugging tricky layouts or experimenting with
+                  Whether it&apos;s debugging tricky layouts or experimenting with
                   new libraries, I find joy in the process of building and
                   refining digital products.
                 </p>

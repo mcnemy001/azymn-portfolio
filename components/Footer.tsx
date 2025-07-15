@@ -27,13 +27,13 @@ export const Footer = () => {
           <div className="flex flex-col items-start space-y-4">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
-                Let's build something{' '}
+                Let&apos;s build something{' '}
                 <span className="text-cyan-500">great</span> together.
               </h2>
 
               <p className="text-base text-white/70 max-w-lg leading-relaxed">
                 Whether you have an idea or just want to say hi, feel free to
-                reach out — I'm open to meaningful collaboration and interesting
+                reach out — I&apos;m open to meaningful collaboration and interesting
                 side-projects.
               </p>
             </div>

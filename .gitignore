@@ -1,19 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # Unused components
-components/ui/CanvasRevealEffect/
-components/ui/GlareCard/
-components/ui/Globe/
-components/ui/GradientBg/
-components/ui/GridGlobe/
-components/ui/Spotlight/
-components/ui/MovingBorder/
-components/Approach/
-components/Clients/
-components/Experience/
-components/Grid/
-components/Hero/
-components/LanyarSection/
+/components/ui/CanvasRevealEffect.tsx
+/components/ui/GlareCard.tsx
+/components/ui/Globe.tsx
+/components/ui/GradientBg.tsx
+/components/ui/GridGlobe.tsx
+/components/ui/Spotlight.tsx
+/components/ui/MovingBorder.tsx
+/components/Approach.tsx
+/components/Clients.tsx
+/components/Experience.tsx
+/components/Grid.tsx
+/components/Hero.tsx
+/components/LanyardSection.tsx
 
 # dependencies
 /node_modules

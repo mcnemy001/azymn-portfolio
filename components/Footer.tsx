@@ -21,7 +21,7 @@ export const Footer = () => {
       </div>
       
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* CTA Section */}
@@ -39,7 +39,7 @@ export const Footer = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
+            <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a href="mailto:aziyusman18@gmail.com">
                 <MagicButton
                   title="Say Hello"

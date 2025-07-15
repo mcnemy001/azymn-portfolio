@@ -1,8 +1,4 @@
-// TextGenerateEffect.tsx
-
-'use client';
-import { useEffect } from 'react';
-import { motion, stagger, useAnimate } from 'motion/react';
+import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
 export const TextGenerateEffect = ({
@@ -11,53 +7,30 @@ export const TextGenerateEffect = ({
   filter = true,
   duration = 0.5,
 }: {
-  words: string,
-  className?: string,
-  filter?: boolean,
-  duration?: number,
+  words: string;
+  className?: string;
+  filter?: boolean;
+  duration?: number;
 }) => {
-  const [scope, animate] = useAnimate();
   const wordsArray = words.split(' ');
-
-  useEffect(() => {
-    animate(
-      'span',
-      {
-        opacity: 1,
-        filter: filter ? 'blur(0px)' : 'none',
-      },
-      {
-        duration: duration,
-        delay: stagger(0.2),
-      }
-    );
-  }, [animate, words, filter, duration]);
-
-  const renderWords = () => {
-    return (
-      <motion.div ref={scope}>
-        {wordsArray.map((word, idx) => {
-          return (
-            <motion.span
-              key={word + idx}
-              className={`${idx > 3 ? 'text-cyan-500' : 'dark:text-white text-black' } opacity-0`}
-              style={{
-                filter: filter ? 'blur(10px)' : 'none',
-              }}
-            >
-              {word}{' '}
-            </motion.span>
-          );
-        })}
-      </motion.div>
-    );
-  };
 
   return (
     <div className={cn('font-bold', className)}>
       <div className="my-4">
-        <div className=" dark:text-white text-black leading-snug tracking-wide">
-          {renderWords()}
+        <div className="dark:text-white text-black leading-snug tracking-wide">
+          <div>
+            {wordsArray.map((word, idx) => (
+              <motion.span
+                key={word + idx}
+                initial={{ opacity: 0, filter: filter ? 'blur(10px)' : 'none' }}
+                animate={{ opacity: 1, filter: filter ? 'blur(0px)' : 'none' }}
+                transition={{ delay: idx * 0.2, duration }}
+                className={idx > 3 ? 'text-cyan-500' : ''}
+              >
+                {word}{' '}
+              </motion.span>
+            ))}
+          </div>
         </div>
       </div>
     </div>

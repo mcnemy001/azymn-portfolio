@@ -39,7 +39,7 @@ export const Footer = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-              <a href="mailto:aziyusman@gmail.com">
+              <a href="mailto:aziyusman18@gmail.com">
                 <MagicButton
                   title="Say Hello"
                   icon={<FaLocationArrow />}

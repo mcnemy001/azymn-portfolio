@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 export const AboutMe = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [hoveredSkill, setHoveredSkill] = useState(null);
+  const [hoveredSkill, setHoveredSkill] = useState<number | null>(null);
 
   const skills = [
     { name: 'React', color: 'from-blue-400 to-blue-600', icon: '/re.svg' },

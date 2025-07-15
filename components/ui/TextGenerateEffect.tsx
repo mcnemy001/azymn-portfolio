@@ -1,3 +1,5 @@
+// TextGenerateEffect.tsx
+
 'use client';
 import { useEffect } from 'react';
 import { motion, stagger, useAnimate } from 'motion/react';
@@ -16,6 +18,7 @@ export const TextGenerateEffect = ({
 }) => {
   const [scope, animate] = useAnimate();
   const wordsArray = words.split(' ');
+
   useEffect(() => {
     animate(
       'span',
@@ -24,11 +27,11 @@ export const TextGenerateEffect = ({
         filter: filter ? 'blur(0px)' : 'none',
       },
       {
-        duration: duration ? duration : 1,
+        duration: duration,
         delay: stagger(0.2),
       }
     );
-  }, [scope.current]);
+  }, [animate, words, filter, duration]);
 
   const renderWords = () => {
     return (
